@@ -1,0 +1,436 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --main-color: #2196F3;
+    --family-color: #212121;
+}
+
+body{
+   font-family: var(--font-family); 
+   color: var(--family-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    /* margin: 0;   */
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 0;
+}
+
+.list{
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*================COMPONENTS================ */
+.model-btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    margin: 0 auto;
+    display: block;
+    
+
+    /* identical to box height, or 187% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    
+
+    color: #FFFFFF;
+    font-family:var(--font-family);
+    /* position: absolute; */
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+
+
+}
+
+.secondary-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+/*================END COMPONENTS================ */
+
+
+/*================HEADER================ */
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.navigation-logo{
+   margin-right: 93px;
+   font-family: var( --secondary-font);
+}
+
+.navigation-list,
+.navigation-advantages-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.navigation-address{
+    display: flex;
+    align-items: center;
+}
+
+ .header .address{
+    margin-left: auto;
+}
+
+.address-mail{
+    margin-right: 50px;
+}
+
+.navigation-advantages-item:not(:last-child){
+    margin-right: 30px;
+    top: 93px;
+}
+
+.navigation-advantages-item{
+    top: 774px;
+}
+
+.navigation-logo,
+.navigation-logo-footer {     
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;    
+    /* identical to box height */
+    letter-spacing: 0.03em; 
+    
+}
+.navigation-logo{
+  color: var(--family-color);    
+}
+
+.navigation-logo-color{
+    color: var(--main-color);
+}
+
+.navigation-list-link,
+.address{    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;  
+    color:#212121 
+}
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone-number:hover,
+.footer-phone-number:focus{
+    color:var(--main-color);
+}
+
+.address{
+    font-style: normal;      
+}
+.address-mail,
+.address-phone-number{
+    color: #757575;
+}
+
+
+/*================END HEADER================ */
+
+/*================BUTTON================ */
+
+
+.button-content h1{
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+/* width: 46.5rem; */
+/* text-transform: uppercase; */
+color: #FFFFFF;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+margin-right: auto;
+margin-left: auto;
+ 
+}
+
+.button {
+ background :#2F303A;
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/*================END BUTTON================ */
+
+/*================NASZE ATUTY================ */
+
+.what-we-do .secondary-header{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.what-we-do-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-advantages-h4{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    left: 215px;
+top: 774px;
+    
+
+}
+.navigation-advantages-p{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+
+/*================END NASZE ATUTY================ */
+
+/*================STAFF================ */
+
+.staff .secondary-header{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.staff-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.staff_p{
+    margin: 0;
+}
+
+.third-header{   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+}
+.staff{
+   background: #F5F4FA;
+}
+
+.staff_p{   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+
+    color: rgba(117, 117, 117, 0.63);
+    
+}
+/*================END STAFF================ */
+
+/*================FOOTER================ */
+.navigation-logo-footer{
+    margin-top: 60px;
+}
+
+.footer-address{
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.footer_list_item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.footer{
+    background: #2F303A;
+}
+
+.footer_list{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+      
+}
+.footer-address{
+    color: #FFFFFF;
+} 
+ 
+.navigation-logo-footer{
+    font-family: var(--secondary-font);
+}
+
+ .footer-mail,
+.footer-phone-number{
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*================END FOOTER================ */
+
+/*================PORTFOLIO================ */
+.navigation-logo-footer{
+  color: #FFFFFF;  
+}
+
+
+.third-header-project{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.staff_p-project{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.model-btn-portfolio{
+    width: 93px;
+    height: 38px;
+    left: 639px;
+    top: 174px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+
+
+    font-family:var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: 0;
+    padding: 6px 22px;
+}
+
+
+
+.model-btn-portfolio:hover,
+.model-btn-portfolio:focus{
+    background: #2196F3;
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625px;
+
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+/*================END PORTFOLIO================ */
